@@ -39,3 +39,11 @@ javascript:(() => {
 
   pageScroll();
 })();
+
+
+
+
+
+
+
+javascript:(()=>{var e=0;!function t(){window.scrollBy(0,1e3);let l=document.querySelectorAll("li.Eie04v01").length;if((e+=2)>l){const e=document.querySelectorAll("li.Eie04v01"),t=window.location.href.split("/")[4].split("?")[0],l=[];for(let t=0;t<e.length;t++)l.push(`https:${document.querySelectorAll("li.Eie04v01")[t]?.children[0][Object.keys(document.querySelectorAll("li.Eie04v01")[t]?.children[0])[0]]?.memoizedProps?.children[0]?.props?.children[2]?.props?.awemeInfo?.video?.playApi}`);const o=new Blob([JSON.stringify(l)],{type:"text/plain"}),n=window.URL.createObjectURL(o),i=document.createElement("a");return i.style.display="none",i.href=n,i.setAttribute("download",`${t}-phamthanhnam.com.txt`),i.download=`${t}-phamthanhnam.com.txt`,document.body.appendChild(i),i.click(),window.URL.revokeObjectURL(n),!0}setTimeout(t,500)}()})();
